@@ -8,7 +8,7 @@ A simple description formatter for Deno unit tests.
 ```typescript
 import { assert } from "https://deno.land/std/testing/asserts.ts";
 
-import { describe } from "https://deno.land/x/describe";
+import { describe } from "https://deno.land/x/describe/mod.ts";
 
 Deno.test(describe({
   name: "what is being tested",
