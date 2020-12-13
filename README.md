@@ -1,4 +1,4 @@
-# unit-describe
+# describe
 
 A simple description formatter for Deno unit tests.
 
@@ -8,7 +8,7 @@ A simple description formatter for Deno unit tests.
 ```typescript
 import { assert } from "https://deno.land/std/testing/asserts.ts";
 
-import { describe } from "https://raw.githubusercontent.com/andreswebs/unit-describe/master/mod.ts";
+import { describe } from "https://raw.githubusercontent.com/andreswebs/describe/master/mod.ts";
 
 Deno.test(describe({
   name: "what is being tested",
