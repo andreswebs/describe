@@ -12,8 +12,8 @@ import { description } from "https://deno.land/x/describe/mod.ts";
 
 Deno.test(description({
   name: "what is being tested",
-  given: "under what conditions",
-  should: "what should happen"
+  given: "under such conditions",
+  should: "do as expected"
 }), () => {
   assert(true);
 });
