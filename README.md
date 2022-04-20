@@ -19,6 +19,11 @@ Deno.test(description({
 });
 ```
 
+## Test
+
+```sh
+deno test mod.test.ts
+```
 
 ## Authors
 
